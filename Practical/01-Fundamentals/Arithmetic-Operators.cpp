@@ -14,6 +14,7 @@ int main()
     // result = a - b;
     // result = a * b;
     // result = a / b;
+    // result = a % b;
     cout << "Result = " << result;
     return 0;
 }
