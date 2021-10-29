@@ -2,6 +2,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,c++,c,codeblocks,sublimetext,eclipse,python,java,macos,windows,vim
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,c++,c,codeblocks,sublimetext,eclipse,python,java,macos,windows,vim
 
+*.exe
+
 ### C ###
 # Prerequisites
 *.d
