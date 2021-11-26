@@ -2,13 +2,15 @@
 #include<iostream>
 #include<math.h>
 using namespace std;
+
 int main() {
   int n = 0;
   float sum = 0.0;
   cout << "Enter the Limit: ";
   cin >> n;
   for (int i = 1; i <= n; i++) {
+    cout << "1/" << i << "^" << i << " + ";
     sum = sum + (1 / (pow(i, i)));
   }
-  cout << "Sum of Series = " << sum;
+  cout << "\nSum of Series = " << sum;
 }
